@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PGPASSWORD=damco123 psql -U damco -d damcoworks -h localhost -f server/migrations/005_create_projects_schema.sql)",
+      "Bash(cmd.exe /c \"where psql\")",
+      "Bash(cmd.exe /c \"where psql & dir \"\"C:\\\\Program Files\\\\PostgreSQL\"\" 2>&1\")",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(node migrate.js)"
+    ]
+  }
+}

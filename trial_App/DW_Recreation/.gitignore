@@ -1,0 +1,21 @@
+CLAUDE.local.md
+.env
+*.local
+
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Build output
+dist/
+
+# SQLite
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
